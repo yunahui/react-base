@@ -1,0 +1,30 @@
+{
+  "name": "react-base",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "https://github.com/yunahui/react-base.git",
+  "author": "yunahui <yunahui@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --config src/common/config/vite.config.ts",
+    "start:prod": "serve -s dist",
+    "build": "vite build --config src/common/config/vite.config.ts",
+    "preview": "vite preview --config src/common/config/vite.config.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "serve": "^14.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.3"
+  }
+}
